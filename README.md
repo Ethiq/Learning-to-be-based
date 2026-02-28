@@ -1,6 +1,7 @@
 # Learning-to-be-based
 Day 1 — Starting My Base Builder Journey
 1. What is Base ?
+ 
 Base is a Layer-2 blockchain built on Ethereum by Coinbase.
 
 A Layer-2 means it:
