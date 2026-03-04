@@ -16,3 +16,9 @@ Think of it like:
 
 Day 2- Why Base?
 1. Massive Distribution from Coinbase
+>Most blockchains struggle to get users.
+
+But Base has a huge advantage:
+
+>Coinbase already has 110+ million users
+>Those users can easily move to Base
