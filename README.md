@@ -15,3 +15,4 @@ Think of it like:
 (Base = fast express lane built on that highway)
 
 Day 2- Why Base?
+1. Massive Distribution from Coinbase
