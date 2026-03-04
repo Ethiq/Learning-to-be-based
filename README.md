@@ -14,4 +14,4 @@ Think of it like:
 (Ethereum = main highway)
 (Base = fast express lane built on that highway)
 
-Day 2-
+Day 2- Why Base?
