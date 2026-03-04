@@ -21,3 +21,15 @@ Day 2- Why Base?
 But Base has a huge advantage:
 >Coinbase already has 110+ million users
 >Those users can easily move to Base
+
+Example flow:
+
+1.User buys crypto on Coinbase
+
+2.Coinbase integrates Base apps
+
+User starts using Web3 apps automatically
+
+So Base becomes the gateway from Web2 → Web3.
+
+This is one of the biggest distribution advantages in crypto.
