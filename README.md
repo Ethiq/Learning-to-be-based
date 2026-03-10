@@ -55,7 +55,6 @@ recover wallet easily
 Instead of remembering seed phrases.
 
 For normal users:
-
 current crypto UX = confusing
 Base UX goal = like using an app
 This is crucial for mass adoption.
