@@ -33,3 +33,23 @@ User starts using Web3 apps automatically
 So Base becomes the gateway from Web2 → Web3.
 
 This is one of the biggest distribution advantages in crypto.
+
+Day3 
+Base Focuses on User Experience (Not Just Cheap Fees)
+
+Most blockchains compete on:
+
+>cheaper transactions
+
+>faster speeds
+
+>Base focuses on ease of use.
+
+They are implementing:
+
+>Account Abstraction
+This means users can:
+login with FaceID
+use TouchID
+recover wallet easily
+Instead of remembering seed phrases.
