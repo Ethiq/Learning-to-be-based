@@ -83,9 +83,9 @@ Base avoids this speculation cycle.
 
 Instead:
 
-1.focus on apps
-2.focus on users
-3.focus on real activity
+>focus on apps
+>focus on users
+>focus on real activity
 
 This is why some analysts say:
 
