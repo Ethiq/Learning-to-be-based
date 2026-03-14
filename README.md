@@ -58,3 +58,37 @@ For normal users:
 current crypto UX = confusing
 Base UX goal = like using an app
 This is crucial for mass adoption.
+
+3. No Token Model (Very Unusual)
+
+Most L2 networks launch tokens:
+
+Examples:
+
+Arbitrum → ARB
+
+Optimism → OP
+
+But Base has no token.
+
+Why this matters:
+
+Many tokens extract value
+
+Normally:
+
+Users → pay fees → value goes to token holders.
+
+Base avoids this speculation cycle.
+
+Instead:
+
+focus on apps
+
+focus on users
+
+focus on real activity
+
+This is why some analysts say:
+
+Base grows through utility, not speculation.
