@@ -71,23 +71,21 @@ Examples:
 
 But Base has no token.
 
-Why this matters:
+(Why this matters)
 
 Many tokens extract value
 
 Normally:
 
-Users → pay fees → value goes to token holders.
+>Users → pay fees → value goes to token holders.
 
 Base avoids this speculation cycle.
 
 Instead:
 
-focus on apps
-
-focus on users
-
-focus on real activity
+1.focus on apps
+2.focus on users
+3.focus on real activity
 
 This is why some analysts say:
 
