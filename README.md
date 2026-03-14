@@ -59,7 +59,7 @@ current crypto UX = confusing
 Base UX goal = like using an app
 This is crucial for mass adoption.
 
-3. No Token Model (Very Unusual)
+DAY 3 No Token Model Yet
 
 Most L2 networks launch tokens:
 
