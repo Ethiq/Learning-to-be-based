@@ -65,9 +65,9 @@ Most L2 networks launch tokens:
 
 Examples:
 
-Arbitrum → ARB
+>Arbitrum → ARB
 
-Optimism → OP
+>Optimism → OP
 
 But Base has no token.
 
