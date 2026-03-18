@@ -97,9 +97,7 @@ Originally Base used: -- OP Stack
 
 Which powers many L2 chains in the Superchain ecosystem.
 
-But in Feb 2026 Base announced:
-
-➡ moving to its own Unified Stack
+But in Feb 2026 Base announced ➡ moving to its own Unified Stack
 
 Reasons:
 
