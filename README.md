@@ -24,9 +24,9 @@ But Base has a huge advantage:
 
 Example flow:
 
-1.User buys crypto on Coinbase
+User buys crypto on Coinbase
 
-2.Coinbase integrates Base apps
+Coinbase integrates Base apps
 
 User starts using Web3 apps automatically
 
