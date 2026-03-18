@@ -93,9 +93,7 @@ Base grows through utility, not speculation.
 
 DAY 4 (Strategic Independence) 
 
-Originally Base used:
-
-OP Stack
+Originally Base used: -- OP Stack
 
 Which powers many L2 chains in the Superchain ecosystem.
 
