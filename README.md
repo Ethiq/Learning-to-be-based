@@ -99,13 +99,7 @@ Which powers many L2 chains in the Superchain ecosystem.
 
 But in Feb 2026 Base announced ➡ moving to its own Unified Stack
 
-Reasons:
-
-Faster development
-
-Full control
-
-No dependency on other teams
+Reasons: >Faster development >Full control >No dependency on other teams
 
 Impact:
 
