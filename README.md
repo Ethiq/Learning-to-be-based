@@ -39,7 +39,7 @@ Base Focuses on User Experience (Not Just Cheap Fees)
 
 Most blockchains compete on:
 
->cheaper transactions
+cheaper transactions
 
 >faster speeds
 
@@ -103,7 +103,7 @@ Reasons: >Faster development >Full control >No dependency on other teams
 
 Impact:
 
-Base was generating 97% of Superchain revenue
+>Base was generating 97% of Superchain revenue
 
 It was sending 15% revenue to Optimism
 
