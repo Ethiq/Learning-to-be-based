@@ -117,7 +117,7 @@ This decision shook the entire Layer-2 ecosystem.
 
 wallet and what not. But on Base, if you've a Coinbase account, you're one - click away from being on Base.
 
-𝗧𝗵𝗲 𝗡𝘂𝗺𝗯𝗲𝗿𝘀 𝘁𝗵𝗮𝘁 𝘀𝗵𝗼𝘂𝗹𝗱𝗻'𝘁 𝗲𝘅𝗶𝘀𝘁
+Day 5 𝗧𝗵𝗲 𝗡𝘂𝗺𝗯𝗲𝗿𝘀 𝘁𝗵𝗮𝘁 𝘀𝗵𝗼𝘂𝗹𝗱𝗻'𝘁 𝗲𝘅𝗶𝘀𝘁
 
  Base captures roughly 46.6% of all L2 TVL. One chain and nearly half of the TVL out of 50+ competing L2s.
 
