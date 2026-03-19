@@ -122,3 +122,4 @@ Day 5 𝗧𝗵𝗲 𝗡𝘂𝗺𝗯𝗲𝗿𝘀 𝘁𝗵𝗮𝘁 𝘀𝗵𝗼�
  Base captures roughly 46.6% of all L2 TVL. One chain and nearly half of the TVL out of 50+ competing L2s.
 
 It generates about 62% of all L2 fee revenue across the entire Ethereum ecosystem. 70% of all L2 active addresses are on Base.
+commit 1
