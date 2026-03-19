@@ -124,3 +124,4 @@ Day 5 𝗧𝗵𝗲 𝗡𝘂𝗺𝗯𝗲𝗿𝘀 𝘁𝗵𝗮𝘁 𝘀𝗵𝗼�
 It generates about 62% of all L2 fee revenue across the entire Ethereum ecosystem. 70% of all L2 active addresses are on Base.
 commit 1
 commit 2
+commit 3
