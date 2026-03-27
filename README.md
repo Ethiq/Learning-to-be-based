@@ -1,125 +1,50 @@
-# Learning-to-be-based
-Day 1 — Starting My Base Builder Journey
-1. What is Base ?
- 
-Base is a Layer-2 blockchain built on Ethereum by Coinbase.
+# Learning to be Based
 
-A Layer-2 means it:
->Runs on top of Ethereum,
->Makes transactions faster and cheaper,
->Still inherits Ethereum security
+A developer journal documenting my journey into building on [Base](https://base.org) — Coinbase's Layer-2 network on Ethereum.
 
-Think of it like:
+## What This Is
 
-(Ethereum = main highway)
-(Base = fast express lane built on that highway)
+This repo tracks what I'm learning about Base as a blockchain platform: how it works, why it matters, and what it's like to build on it. It's part notebook, part reference, part builder portfolio.
 
-Day 2- Why Base?
-1. Massive Distribution from Coinbase
->Most blockchains struggle to get users.
+## Why Base?
 
-But Base has a huge advantage:
->Coinbase already has 110+ million users
->Those users can easily move to Base
+- **Layer-2 on Ethereum** — cheaper and faster transactions while inheriting Ethereum's security
+- **Coinbase distribution** — 110M+ existing users, one-click onboarding from Coinbase accounts
+- **UX-first approach** — account abstraction, FaceID/TouchID login, no seed phrase headaches
+- **Utility over speculation** — no native token, focused on real app usage and developer activity
 
-Example flow:
+## Repository Structure
 
-User buys crypto on Coinbase
+```
+contracts/      # Solidity smart contracts
+scripts/        # Practical code examples and utilities
+journal/        # Daily learning notes and observations
+resources/      # Curated links, guides, and reference material
+docs/           # Development log and project documentation
+```
 
-Coinbase integrates Base apps
+## Journal
 
-User starts using Web3 apps automatically
+| Day | Topic | Key Takeaway |
+|-----|-------|--------------|
+| 1 | [What is Base?](journal/day-01-what-is-base.md) | Base is an Ethereum L2 built by Coinbase — fast lane on the Ethereum highway |
+| 2 | [Why Base?](journal/day-02-why-base.md) | Coinbase's 110M users give Base unmatched distribution for Web2→Web3 |
+| 3 | [UX and Token Model](journal/day-03-ux-and-token-model.md) | Account abstraction + no token = focus on real utility |
+| 4 | [Strategic Independence](journal/day-04-strategic-independence.md) | Base left the Superchain — massive ecosystem implications |
+| 5 | [Base by the Numbers](journal/day-05-base-by-the-numbers.md) | 46.6% of L2 TVL, 62% of L2 fee revenue, 70% of active addresses |
+| 6 | [First Smart Contract](journal/day-06-first-smart-contract.md) | Writing a Guestbook contract — storage costs, events, and Foundry setup |
 
-So Base becomes the gateway from Web2 → Web3.
+## Status
 
-This is one of the biggest distribution advantages in crypto.
+Currently in the learning and research phase. Next steps:
 
-Day3 
-Base Focuses on User Experience (Not Just Cheap Fees)
+- [ ] Set up a local Base development environment
+- [ ] Deploy a simple contract to Base Sepolia testnet
+- [ ] Build a small dApp that reads on-chain data
+- [ ] Document the developer experience compared to other L2s
 
-Most blockchains compete on:
+## Resources
 
-cheaper transactions
-
->faster speeds
-
->Base focuses on ease of use.
-
-They are implementing:
-
->Account Abstraction
-This means users can:
-login with FaceID
-use TouchID
-recover wallet easily
-Instead of remembering seed phrases.
-
-For normal users:
-current crypto UX = confusing
-Base UX goal = like using an app
-This is crucial for mass adoption.
-
-DAY 3 No Token Model Yet
-
-Most L2 networks launch tokens:
-
-Examples:
-
->Arbitrum → ARB
-
->Optimism → OP
-
-But Base has no token.
-
-(Why this matters)
-
-Many tokens extract value
-
-Normally:
-
->Users → pay fees → value goes to token holders.
-
-Base avoids this speculation cycle.
-
-Instead:
-
->focus on apps, 
->focus on users, 
->focus on real activity
-
-This is why some analysts say:
-
-Base grows through utility, not speculation.
-
-DAY 4 (Strategic Independence) 
-
-Originally Base used: -- OP Stack
-
-Which powers many L2 chains in the Superchain ecosystem.
-
-But in Feb 2026 Base announced ➡ moving to its own Unified Stack
-
-Reasons: >Faster development >Full control >No dependency on other teams
-
-Impact:
-
->Base was generating 97% of Superchain revenue
-
-It was sending 15% revenue to Optimism
-
-After leaving:
-
-funding to Optimism stops
-
-OP token dropped ~25%
-
-This decision shook the entire Layer-2 ecosystem.
-
-wallet and what not. But on Base, if you've a Coinbase account, you're one - click away from being on Base.
-
-Day 5 𝗧𝗵𝗲 𝗡𝘂𝗺𝗯𝗲𝗿𝘀 𝘁𝗵𝗮𝘁 𝘀𝗵𝗼𝘂𝗹𝗱𝗻'𝘁 𝗲𝘅𝗶𝘀𝘁
-
- Base captures roughly 46.6% of all L2 TVL. One chain and nearly half of the TVL out of 50+ competing L2s.
-
-It generates about 62% of all L2 fee revenue across the entire Ethereum ecosystem. 70% of all L2 active addresses are on Base.
-
+- [Base Documentation](https://docs.base.org)
+- [Base Bridge](https://bridge.base.org)
+- [Basescan Explorer](https://basescan.org)
