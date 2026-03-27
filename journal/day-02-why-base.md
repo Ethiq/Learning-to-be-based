@@ -27,3 +27,7 @@ Building on Base means your app is potentially accessible to the largest verifie
 ## Key Takeaway
 
 In crypto, distribution is everything. Base has more of it than any other L2 — and it's not even close.
+
+---
+
+**Previous:** [Day 1 — What is Base?](day-01-what-is-base.md) | **Next:** [Day 3 — UX and Token Model](day-03-ux-and-token-model.md)

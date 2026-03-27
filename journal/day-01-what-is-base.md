@@ -25,3 +25,7 @@ Most people can't afford to use Ethereum directly — gas fees can spike to $50+
 ## Key Takeaway
 
 Base isn't a separate blockchain competing with Ethereum. It's an extension of Ethereum that makes it actually usable for everyday transactions.
+
+---
+
+**Next:** [Day 2 — Why Base Over Other L2s?](day-02-why-base.md)
