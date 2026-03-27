@@ -32,6 +32,7 @@ docs/           # Development log and project documentation
 | 3 | [UX and Token Model](journal/day-03-ux-and-token-model.md) | Account abstraction + no token = focus on real utility |
 | 4 | [Strategic Independence](journal/day-04-strategic-independence.md) | Base left the Superchain — massive ecosystem implications |
 | 5 | [Base by the Numbers](journal/day-05-base-by-the-numbers.md) | 46.6% of L2 TVL, 62% of L2 fee revenue, 70% of active addresses |
+| 6 | [First Smart Contract](journal/day-06-first-smart-contract.md) | Writing a Guestbook contract — storage costs, events, and Foundry setup |
 
 ## Status
 
