@@ -28,6 +28,8 @@ Thumbs.db
 cache/
 artifacts/
 typechain-types/
+out/
+broadcast/
 
 # Coverage
 coverage/
