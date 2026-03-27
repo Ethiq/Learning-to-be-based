@@ -18,6 +18,7 @@ This repo tracks what I'm learning about Base as a blockchain platform: how it w
 ```
 journal/        # Daily learning notes and observations
 resources/      # Curated links, guides, and reference material
+scripts/        # Practical code examples and utilities
 docs/           # Development log and project documentation
 ```
 
