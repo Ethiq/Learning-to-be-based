@@ -35,4 +35,4 @@ Base's numbers prove that distribution and real usage beat tokenomics and incent
 
 ---
 
-**Previous:** [Day 4 — Strategic Independence](day-04-strategic-independence.md)
+**Previous:** [Day 4 — Strategic Independence](day-04-strategic-independence.md) | **Next:** [Day 6 — First Smart Contract](day-06-first-smart-contract.md)
