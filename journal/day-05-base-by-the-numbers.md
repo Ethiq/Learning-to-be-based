@@ -32,3 +32,7 @@ Base has none of that — and still captures nearly half the TVL and the majorit
 ## Key Takeaway
 
 Base's numbers prove that distribution and real usage beat tokenomics and incentive programs. Nearly half the L2 market with zero token incentives is unprecedented.
+
+---
+
+**Previous:** [Day 4 — Strategic Independence](day-04-strategic-independence.md)

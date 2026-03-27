@@ -45,3 +45,7 @@ Some analysts argue this makes Base's growth more sustainable — it grows throu
 ## Key Takeaway
 
 Account abstraction + no token = Base is optimizing for real usage, not financial engineering.
+
+---
+
+**Previous:** [Day 2 — Why Base?](day-02-why-base.md) | **Next:** [Day 4 — Strategic Independence](day-04-strategic-independence.md)

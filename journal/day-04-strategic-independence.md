@@ -34,3 +34,7 @@ It also raises questions about the viability of "shared L2 ecosystems" when one 
 ## Key Takeaway
 
 Base leaving the Superchain was the biggest L2 ecosystem event of early 2026. It showed that distribution and revenue matter more than shared infrastructure.
+
+---
+
+**Previous:** [Day 3 — UX and Token Model](day-03-ux-and-token-model.md) | **Next:** [Day 5 — Base by the Numbers](day-05-base-by-the-numbers.md)
