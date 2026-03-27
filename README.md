@@ -16,9 +16,10 @@ This repo tracks what I'm learning about Base as a blockchain platform: how it w
 ## Repository Structure
 
 ```
+contracts/      # Solidity smart contracts
+scripts/        # Practical code examples and utilities
 journal/        # Daily learning notes and observations
 resources/      # Curated links, guides, and reference material
-scripts/        # Practical code examples and utilities
 docs/           # Development log and project documentation
 ```
 
