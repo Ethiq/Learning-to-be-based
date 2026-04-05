@@ -2,7 +2,7 @@
 
 A developer journal documenting my journey into building on [Base](https://base.org) — Coinbase's Layer-2 network on Ethereum.
 
-## What This Is
+ What This Is
 
 This repo tracks what I'm learning about Base as a blockchain platform: how it works, why it matters, and what it's like to build on it. It's part notebook, part reference, part builder portfolio.
 
