@@ -1,4 +1,4 @@
-# Learning to be Based
+ Learning to be Based
 
 A developer journal documenting my journey into building on [Base](https://base.org) — Coinbase's Layer-2 network on Ethereum.
 
