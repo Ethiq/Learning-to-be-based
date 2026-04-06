@@ -23,7 +23,7 @@ resources/      # Curated links, guides, and reference material
 docs/           # Development log and project documentation
 ```
 
- Journal
+## Journal
 
 | Day | Topic | Key Takeaway |
 |-----|-------|--------------|
