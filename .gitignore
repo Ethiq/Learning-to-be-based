@@ -34,3 +34,7 @@ broadcast/
 # Coverage
 coverage/
 coverage.json
+
+# Next.js
+.next/
+*.tsbuildinfo
