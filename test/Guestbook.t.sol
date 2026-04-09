@@ -28,7 +28,7 @@ contract GuestbookTest is Test {
     function test_sign_emits_event() public {
         vm.prank(alice);
         vm.expectEmit(true, false, false, true);
-        emit Guestbook.Signed(alice, "Hello!", block.timestamp);
+        emit Guestbook.Signed(alice, "Hello!", block.timestamp, 0);
         guestbook.sign("Hello!");
     }
 
@@ -39,7 +39,6 @@ contract GuestbookTest is Test {
     }
 
     function test_sign_reverts_on_long_message() public {
-        // 281 characters — one over the limit
         bytes memory longMsg = new bytes(281);
         for (uint256 i = 0; i < 281; i++) {
             longMsg[i] = "a";
@@ -93,5 +92,47 @@ contract GuestbookTest is Test {
     function test_getEntry_reverts_out_of_bounds() public {
         vm.expectRevert("Index out of bounds");
         guestbook.getEntry(0);
+    }
+
+    function test_getEntryIndexesBySigner_returns_ordered_indexes() public {
+        vm.startPrank(alice);
+        guestbook.sign("A-1");
+        guestbook.sign("A-2");
+        vm.stopPrank();
+
+        vm.prank(bob);
+        guestbook.sign("B-1");
+
+        uint256[] memory aliceIndexes = guestbook.getEntryIndexesBySigner(alice);
+        uint256[] memory bobIndexes = guestbook.getEntryIndexesBySigner(bob);
+
+        assertEq(aliceIndexes.length, 2);
+        assertEq(aliceIndexes[0], 0);
+        assertEq(aliceIndexes[1], 1);
+
+        assertEq(bobIndexes.length, 1);
+        assertEq(bobIndexes[0], 2);
+    }
+
+    function test_getRecentEntriesBySigner_returns_latest_for_signer() public {
+        vm.prank(alice);
+        guestbook.sign("A-1");
+
+        vm.prank(bob);
+        guestbook.sign("B-1");
+
+        vm.startPrank(alice);
+        guestbook.sign("A-2");
+        guestbook.sign("A-3");
+        vm.stopPrank();
+
+        Guestbook.Entry[] memory aliceRecent = guestbook.getRecentEntriesBySigner(alice, 2);
+        assertEq(aliceRecent.length, 2);
+        assertEq(aliceRecent[0].message, "A-2");
+        assertEq(aliceRecent[1].message, "A-3");
+
+        Guestbook.Entry[] memory bobRecent = guestbook.getRecentEntriesBySigner(bob, 5);
+        assertEq(bobRecent.length, 1);
+        assertEq(bobRecent[0].message, "B-1");
     }
 }

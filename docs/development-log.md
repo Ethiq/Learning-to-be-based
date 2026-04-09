@@ -19,3 +19,12 @@ Track of what's been built and learned in this repo.
 - [ ] Write a simple Solidity contract and deploy to Base Sepolia
 - [ ] Add a contract interaction script that reads on-chain state
 - [ ] Compare Base dev experience to Arbitrum/Optimism
+
+## 2026-04
+
+### Week 2
+
+- **Added signer-indexed guestbook queries** — contract now tracks entry indexes per signer and exposes `getEntryIndexesBySigner` plus `getRecentEntriesBySigner`.
+- **Expanded test coverage** — added tests for signer index ordering and signer-scoped recent entry retrieval.
+- **Improved telemetry script output** — added JSON output mode plus snapshot file export for historical tracking.
+- **Added CI baseline** — GitHub Actions workflow now runs `forge build` and `forge test` on push/PR.

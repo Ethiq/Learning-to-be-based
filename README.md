@@ -1,50 +1,125 @@
- # Learning to be Based
+# Base Wallet Analytics Dashboard
 
-A developer journal documenting my journey into building on [Base](https://base.org) — Coinbase's Layer-2 network on Ethereum.
+A production-style analytics web app for **Base blockchain wallets** inspired by LayerHub-style wallet intelligence tools.
 
-## What This Is
+## Problem
 
-This repo tracks what I'm learning about Base as a blockchain platform: how it works, why it matters, and what it's like to build on it. It's part notebook, part reference, part builder portfolio.
+Most wallet dashboards are either multi-chain and noisy, or narrowly focused on balances without actionable behavior metrics.
+For Base builders and analysts, that makes it hard to quickly answer:
 
-## Why Base?
+- How active is this wallet really?
+- Is usage consistent over time or one-off?
+- How deeply does this wallet interact with contracts?
+- Where does this wallet rank relative to high-activity users?
 
-- **Layer-2 on Ethereum** — cheaper and faster transactions while inheriting Ethereum's security
-- **Coinbase distribution** — 110M+ existing users, one-click onboarding from Coinbase accounts
-- **UX-first approach** — account abstraction, FaceID/TouchID login, no seed phrase headaches
-- **Utility over speculation** — no native token, focused on real app usage and developer activity
+## Solution
 
-## Repository Structure
+This repository now provides a **Base-only full-stack analytics platform** with:
 
+- Wallet address search (no wallet connection required)
+- Wallet analytics API powered by Base RPC + optional BaseScan enrichment
+- Activity trend visualizations
+- Ranking score + tier model (Top 1%, Top 10%, etc.)
+- Dedicated Base network stats page
+- Reusable CLI script for wallet analytics collection
+
+## Stack
+
+- **Frontend:** Next.js App Router + Tailwind CSS + shadcn-style UI primitives
+- **Backend:** Next.js API routes (`/api/wallet/[address]`, `/api/network/stats`)
+- **Data:** Base RPC + BaseScan API (optional key)
+- **State:** React Query
+- **Charts:** Recharts
+
+## Core Features
+
+1. **Wallet Search** with client-side address validation
+2. **Wallet Analytics Dashboard**
+   - Total transactions
+   - Active days
+   - First/last activity
+   - Contracts interacted
+   - Contracts created
+   - ETH balance
+   - Total volume (when tx history available)
+3. **Activity Breakdown**
+   - Transactions-over-time chart
+   - Contract interaction leaderboard
+4. **Ranking Engine**
+   - Score based on transactions, active days, contract interactions
+   - Tier assignment (Top 1%, Top 10%, Top 25%, Top 50%, Emerging)
+5. **Base Network Stats Page**
+   - Total transactions
+   - Active wallets
+   - Daily activity chart
+6. **CLI Integration**
+   - `scripts/base-wallet-analytics.js`
+
+## Project Structure
+
+```text
+app/
+  api/
+    wallet/[address]/route.ts
+    network/stats/route.ts
+  wallet/[address]/page.tsx
+  network/page.tsx
+  page.tsx
+components/
+  dashboard/
+  ui/
+lib/
+  analytics.ts
+  ranking.ts
+  providers/
+scripts/
+  base-wallet-analytics.js
+  base-chain-info.js
+contracts/
+test/
 ```
-contracts/      # Solidity smart contracts
-scripts/        # Practical code examples and utilities
-journal/        # Daily learning notes and observations
-resources/      # Curated links, guides, and reference material
-docs/           # Development log and project documentation
+
+## Usage
+
+### 1) Install dependencies
+
+```bash
+npm install
 ```
 
-## Journal
+### 2) Environment variables
 
-| Day | Topic | Key Takeaway |
-|-----|-------|--------------|
-| 1 | [What is Base?](journal/day-01-what-is-base.md) | Base is an Ethereum L2 built by Coinbase — fast lane on the Ethereum highway |
-| 2 | [Why Base?](journal/day-02-why-base.md) | Coinbase's 110M users give Base unmatched distribution for Web2→Web3 |
-| 3 | [UX and Token Model](journal/day-03-ux-and-token-model.md) | Account abstraction + no token = focus on real utility |
-| 4 | [Strategic Independence](journal/day-04-strategic-independence.md) | Base left the Superchain — massive ecosystem implications |
-| 5 | [Base by the Numbers](journal/day-05-base-by-the-numbers.md) | 46.6% of L2 TVL, 62% of L2 fee revenue, 70% of active addresses |
-| 6 | [First Smart Contract](journal/day-06-first-smart-contract.md) | Writing a Guestbook contract — storage costs, events, and Foundry setup |
+Create `.env.local`:
 
-## Status
+```bash
+BASE_RPC_URL=https://mainnet.base.org
+BASESCAN_API_KEY=your_basescan_key_optional
+```
 
-Currently in the learning and research phase. Next steps:
+### 3) Run web app
 
-- [ ] Set up a local Base development environment
-- [ ] Deploy a simple contract to Base Sepolia testnet
-- [ ] Build a small dApp that reads on-chain data
-- [ ] Document the developer experience compared to other L2s
+```bash
+npm run dev
+```
 
-## Resources
+Open `http://localhost:3000`.
 
-- [Base Documentation](https://docs.base.org)
-- [Base Bridge](https://bridge.base.org)
-- [Basescan Explorer](https://basescan.org)
+### 4) CLI wallet analytics
+
+```bash
+node scripts/base-wallet-analytics.js 0xYourWalletAddress --json
+```
+
+## Additional Commands
+
+```bash
+npm run build
+npm run lint
+forge test
+```
+
+## Quality Notes
+
+- API routes return user-friendly errors for invalid addresses and upstream failures.
+- Wallet metrics fall back gracefully when BaseScan API key is absent.
+- Foundry CI is included for contract build/test automation.
